@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 24px;
 }
 .name-app {
   font-size: 48px;
@@ -170,10 +170,12 @@ p {
     text-align: center;
     margin: 4px 10px;
   }
-  p {
+  p,
+  .p-about {
     text-align: center;
     padding: 0px;
     margin: 15px;
+    font-size: 18px;
   }
   h1,
   .name-app {
@@ -181,10 +183,13 @@ p {
     text-align: center;
   }
   .h2-beginning {
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 80px;
   }
-
+  h3 {
+    font-size: 15px;
+    text-align: center;
+  }
   .grid-app-link {
     padding: 20px 30px;
     line-height: 3;
@@ -209,6 +214,12 @@ p {
   .about-location {
     font-size: 20px;
   }
+  .about-contact-h2 {
+  font-size: 30px;
+}
+.email-link {
+  font-size: 14px;
+}
   .nav-link {
     display: block;
     text-align: left;
@@ -217,4 +228,4 @@ p {
   .navbar-toggler {
     margin-right: 20px;
   }
-}
+
