@@ -156,6 +156,7 @@ p {
     margin-left: 30px;
     margin-right: 30px;
   }
+  p,
   .p-about {
     text-align: center;
   }
@@ -215,11 +216,11 @@ p {
     font-size: 20px;
   }
   .about-contact-h2 {
-  font-size: 30px;
-}
-.email-link {
-  font-size: 14px;
-}
+    font-size: 30px;
+  }
+  .email-link {
+    font-size: 14px;
+  }
   .nav-link {
     display: block;
     text-align: left;
@@ -228,4 +229,4 @@ p {
   .navbar-toggler {
     margin-right: 20px;
   }
-
+}
